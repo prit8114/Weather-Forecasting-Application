@@ -59,3 +59,21 @@ Visibility is 10.0 km
 • Keep keys in .env or environment variables
 • If your key is exposed, rotate it in the WeatherAPI dashboard
 • Make sure .env is listed in .gitignore
+
+🚀 FUTURE ENHANCEMENTS
+
+• 7-day and 14-day weather forecast support
+• Auto-detect location using IP or GPS
+• Graphical User Interface (Tkinter or PyQt)
+• Web dashboard using Streamlit or Flask
+• Temperature and humidity trend charts
+• Severe weather alert notifications
+• Save weather reports to PDF or text file
+• Mobile-friendly UI version (Flutter / React Native)
+• AI-based weather insights or recommendations
+• Multi-language support
+• Dark / light theme for UI version
+• Historical weather comparison (today vs last year)
+• Voice input and voice weather output
+• Docker containerization for easy deployment
+• Convert into full REST API service
