@@ -1,0 +1,6 @@
+requests==2.32.5
+python-dotenv==1.2.1
+# Dev/test tools (optional):
+# pytest==8.4.0
+# black==24.9.0
+# ruff==0.20.0
