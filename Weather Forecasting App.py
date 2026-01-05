@@ -4,8 +4,12 @@ import json
 from dotenv import load_dotenv #to load environment variables from .env file
 load_dotenv()
 
+def main():
+    API_KEY = os.getenv("WEATHER_API_KEY")
 
-API_KEY=os.getenv("WEATHER_API_KEY")
+    if not api_key:
+        print("API key not found. Please add WEATHER_API_KEY in your .env file.")
+        return
 
 city=input("Enter the name of the city:")
 url=f"http://api.weatherapi.com/v1/current.json?key={API_KEY}&q={city}"
@@ -32,3 +36,6 @@ print("\nHumidity is",weather_data['current']['humidity'],"%")
 print("Wind is", weather_data['current']['wind_kph'], "kph")
 print("UV index is",weather_data['current']['uv'])
 print("Visibility is",weather_data['current']['vis_km'], "km")
+
+if __name__ == "__main__":
+    main()
